@@ -4,10 +4,11 @@ class Collatz {
         int final1 = 0;
         int final2 = 0;
         boolean theend = false;
-        for (int i = 100; i > 1; i--) {
+        for (int i = 60; i > 1; i--) {
             theend = false;
             temp = i;
-            System.out.print("Start" + i + " ");
+            System.out.println((char) 27 + "[34m");
+            System.out.print("Start  " + i + " ");
             while (!theend) {
 
                 if (temp % 2 == 0) {
