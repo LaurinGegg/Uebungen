@@ -1,3 +1,3 @@
-public interface kriechbar {
+public interface Kriechbar{
     void krieche(int turbo);
 }
